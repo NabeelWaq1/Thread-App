@@ -7,7 +7,6 @@ import AuthPage from "./pages/AuthPage";
 import HomePage from "./pages/HomePage";
 import { useRecoilValue } from "recoil";
 import userAtom from "./atoms/userAtom";
-import LogoutButton from "./components/logoutButton";
 import UserProfileEdit from "./pages/UpdateProfile";
 import CreatePost from "./components/createPost";
 import Chat from "./pages/Chat";
