@@ -1,16 +1,16 @@
 import { Box, Container } from "@chakra-ui/react";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
-import UserPage from "./pages/UserPage";
-import PostPage from "./pages/PostPage";
-import Header from "./components/Header";
-import AuthPage from "./pages/AuthPage";
-import HomePage from "./pages/HomePage";
+import UserPage from "./pages/UserPage.jsx";
+import PostPage from "./pages/PostPage.jsx";
+import Header from "./components/Header.jsx";
+import AuthPage from "./pages/AuthPage.jsx";
+import HomePage from "./pages/HomePage.jsx";
 import { useRecoilValue } from "recoil";
 import userAtom from "./atoms/userAtom";
 import UserProfileEdit from "./pages/UpdateProfile";
-import CreatePost from "./components/createPost";
-import Chat from "./pages/Chat";
-import SettingsPage from "./pages/SettingsPage";
+import CreatePost from "./components/CreatePost.jsx";
+import Chat from "./pages/Chat.jsx";
+import SettingsPage from "./pages/SettingsPage.jsx";
 
 
 
